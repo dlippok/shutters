@@ -1,6 +1,7 @@
 .PHONY: install
 install:
 	cp -rf backgrounds/*  $${HOME}/.local/share/backgrounds
+	mkdir -p $${HOME}/.local/share/gnome-background-properties
 	cp -rf gnome-background-properties/*  $${HOME}/.local/share/gnome-background-properties
 	
 .PHONY: uninstall
